@@ -1,0 +1,22 @@
+{
+  "name": "Logintest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$"
+  },
+  "keywords": [],
+  "author": "Dmitry_Sudinko",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "jest-puppeteer": "^6.1.0",
+    "mailslurp-client": "^15.12.1",
+    "puppeteer": "^15.3.0"
+  }
+}
